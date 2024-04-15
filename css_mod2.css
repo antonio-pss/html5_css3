@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, #0064FA, #2368CF, #3763A5, #3D567A, #3D567A);
+}
+
+main {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    color: #002b6b;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #3d567a;
+}
+
+h1{
+    color: #014fc5;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+
+    /* Shorhand Font
+    Font Styçe -> Font Weith -> Font Size -> Font Family
+    */
+}
+
+p {
+    text-indent: 30px;
+}
+
+h3#id{
+    background-color: #002b6b;
+    color: white;
+}
+
+h3.class{
+    background-color: #374e70;
+    color: white;
+}
