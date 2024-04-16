@@ -19,7 +19,7 @@ main {
 h1{
     color: #014fc5;
     text-align: center;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px black; 
     font-size: 40px;
     font-weight: 900;
     font-style: italic;
@@ -31,15 +31,44 @@ h1{
 }
 
 p {
-    text-indent: 30px;
+    text-indent: 30px; /* Texto ir um pouco para direita. */
 }
 
+/* Só podemos usar um elemento com ID. */
 h3#id{
-    background-color: #002b6b;
-    color: white;
+    background-color: #002b6b; /* Cor de fundo */
+    color: white; /* Cor do texto. */
 }
 
-h3.class{
+/* Podemos ter vários class. */
+.class{
     background-color: #374e70;
     color: white;
 }
+
+div {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+}
+
+div:hover {
+    background-color: #374e70;
+}
+
+/* Modelo de Caixas
+Padding 
+Border  
+Margin  
+*/
+
+/* Pseudo Elementos
+:visited
+:active
+::before
+::after
+...
+*/
