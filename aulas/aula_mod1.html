@@ -1,0 +1,87 @@
+<!DOCTYPE html> <!-- Tag que fala que o código abaixo é em HTML5 -->
+
+<html lang="pt-br"> <!-- Abertura da tag HTML e Linguagem do Site. -->
+
+<head> <!-- Abertura da Tag Head que é para configurações do site. -->
+
+    <meta charset="UTF-8"> <!-- Padrão de Caracteres que aceita acentos. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Vai ocupar toda tela. -->
+
+    <title>Aulas Módulo 1</title> <!-- Título do Site. -->
+
+    <link rel="shortcut icon" href="imagens_aulas/favicon_livro.ico" type="image/x-icon"> <!-- Favicon do Site-->
+
+
+</head> <!-- Fechamento da Tag Head. -->
+
+<body> <!-- Abertura da Tag Body que é o site em si. -->
+
+    <h1>Título 1 até 6</h1> <!-- Os vários "h" são hierarquias e não tamanhos.-->
+
+    <hr> <!-- Horizontal Line --> 
+    <p> Parágrafo. Para pular linha é necessário uma tag chamada "br". <br>
+        Ou criar outro "p".
+    </p>
+
+    <!-- Não importante. -->
+    <!-- <h3>Negrito x Destaque</h3> Não vale a pena as tags de forma, como "b" e "i".
+    <p>Nesta frase temos um <b>termo em negrito</b>, usando a tag "b".</p> 
+    <p>Nesta frase temos um <strong>termo em destaque</strong>, usando a tag "strong".</p>
+
+    <h3>Itálico x Ênfase</h3>
+    <p>Nesta frase temos um <i>termo em intálico</i>, usando a tag "i".</p>
+    <p>Nesta frase temos um <em>termo em ênfase</em>, usando a tag "em".</p> -->
+
+    <hr>
+    <h2>Listas</h2>
+    <ol>
+        <li>Lista Ordenadas com Numeros</li>
+        <ul>
+            <li>Lista não Ordenadas e dentro de outra lista.
+        </ul>
+    </ol>
+    <ol type="a" start="2">
+        <li> Outros tipos e começando em outros pontos.</li>
+    </ol>
+    <dl>
+        <dt>Lista de Definição (Termo)</dt>
+        <dd>É só para deixar bunitin.</dd>
+    </dl>
+
+    <hr>
+    <h2>Links</h2>
+    <a href="https://github.com/antonio-pss" target="_blank" rel="external">Meu Github - Link Externo</a> 
+    <!-- Target é para fazer o usuário a a algo e rel para onde ele vai. -->
+    <!-- Target: _blank _parent _self _top-->
+    <!-- Rel: external - next - prev - nofollow -->
+    
+    <br>
+    <a href="aula0.html" target="_self" rel="next">Outra aula.</a>
+    <br>
+    <a href="arquivos/Ark Bach Taure.pdf" download="Ficha RPG Tormenta Antônio.pdf" type="application/pdf">Baixar Ficha RPG.</a>
+    <!-- "../" é para voltar uma página. -->
+    <!-- dowload é para o nome do arquivo que será baixado e type pro tipo.-->
+
+    <hr>
+    <h2>Imagens</h2>
+    <!-- Tag para ajudar no width de imagens-->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens_aulas/livro_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens_aulas/livro_m.png", type="image/png">
+        <img src="imagens_aulas/livro_g.png" alt="Imagem Flexível">
+    </picture>
+
+    <hr>
+    <h2>Aúdio</h2>
+    <audio src="arquivos/Bossa Sonsa - Quincas Moreira.mp3" controls loop></audio>
+
+    <hr>
+    <h2 style="background-color: rgba(238, 238, 238, 0.534); font-family: cursive;">CSS Inline</h2>
+
+    <hr>
+    <h2>Vídeos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bOw2XdrsatI?si=8BOzJziIbFDmZJsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body> <!-- Fechamento da Tag Body.-->
+</html> <!-- Fechamento da Tag HTML. --> 
